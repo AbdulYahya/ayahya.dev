@@ -117,6 +117,29 @@ collections:
                   { name: description, label: Description, widget: string },
                 ],
             }
+      - file: src/pages/pastMeetups/index.md
+        label: Past Meetups
+        name: pastMeetups
+        fields:
+          - {
+              name: templateKey,
+              label: Template Key,
+              widget: hidden,
+              default: past-meetups-page,
+            }
+          - { name: title, label: Title, widget: string }
+          - { name: body, label: Body, widget: markdown }
+          - {
+              name: seo,
+              label: SEO & Meta,
+              widget: object,
+              fields:
+                [
+                  { name: browserTitle, label: Browser Tab Title, widget: string},
+                  { name: title, label: Title, widget: string },
+                  { name: description, label: Description, widget: string },
+                ],
+            }
       - file: src/pages/home/index.md
         name: home
         label: Home
