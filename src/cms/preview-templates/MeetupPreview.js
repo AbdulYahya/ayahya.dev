@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import format from "date-fns/format"
 
-import MeetupTemplate from "../../templates/meetupTemplate"
+import MeetupTemplate from "../../templates/meetup"
 
 const MeetupPreview = ({ entry }) => {
   const meetup = entry.getIn(["data"]).toJS()
