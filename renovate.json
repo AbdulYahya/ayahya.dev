@@ -26,5 +26,5 @@
   "rangeStrategy": "bump",
   "bumpVersion": null,
   "semanticCommits": true,
-  "schedule": "before 6am on Monday"
+  "schedule": ["after 10pm and before 5am on every weekday", "every weekend"]
 }
