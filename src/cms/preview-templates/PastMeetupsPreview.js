@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { PastMeetupsPageTemplate } from "../../templates/pastMeetupsTemplate"
+import { PastMeetupsPageTemplate } from "../../templates/past-meetups-page"
 
 const PastMeetupsPagePreview = ({ entry, widgetFor }) => {
   return (
