@@ -29,8 +29,8 @@
     "netlify-cms": "^2.6.0",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
     "react-google-maps": "^9.4.5",
     "react-helmet": "^5.2.0",
     "react-markdown": "^4.0.6"
