@@ -48,7 +48,7 @@ if (process.env.CONTEXT === `production`) {
   config.plugins.push(googleAnalyticsConfig)
 }
 
-modules.exports = config
+module.exports = config
 
 // module.exports = {
 //   siteMetadata: {
