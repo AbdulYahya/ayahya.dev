@@ -14,10 +14,10 @@
   },
   "dependencies": {
     "date-fns": "^1.30.1",
-    "gatsby": "^2.2.12",
+    "gatsby": "^2.3.2",
     "gatsby-plugin-lodash": "^3.0.5",
     "gatsby-plugin-netlify": "^2.0.13",
-    "gatsby-plugin-netlify-cms": "^3.0.16",
+    "gatsby-plugin-netlify-cms": "^3.0.17",
     "gatsby-plugin-react-helmet": "^3.0.11",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.0.31",
